@@ -95,6 +95,16 @@ textarea {
 	text-align:center;
 }
 
+#mainScreen {
+	width: 500px;
+	margin-left: 40px;
+}
+
+table th {
+	border: 1px solid black;
+}
+
+
 
 
 
