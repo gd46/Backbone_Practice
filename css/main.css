@@ -98,6 +98,13 @@ textarea {
 #mainScreen {
 	width: 500px;
 	margin-left: 40px;
+	float:left;
+}
+
+#productScreen {
+	width: 500px;
+	margin-right: 40px;
+	float:right;
 }
 
 table th {
