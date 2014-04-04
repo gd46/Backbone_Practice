@@ -1,6 +1,6 @@
 (function($){
 
-        var screenView = Backbone.View.extend({
+        app.screenView = Backbone.View.extend({
                 el: "#mainScreen",
 
 		tagName: "table",
@@ -11,7 +11,7 @@
                         $(this.el).html("<tr><th>Product</th><th>QTY</th><th>Price</th></tr>");
                 }
         });
-        var screen = new screenView();
+        var screen = new app.screenView();
         screen.render();
 
 })(jQuery);

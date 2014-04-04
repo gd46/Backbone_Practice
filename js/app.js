@@ -1,0 +1,7 @@
+app ={
+
+	init: function(){
+
+	}
+	
+}
