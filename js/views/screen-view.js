@@ -11,7 +11,5 @@
                         $(this.el).html("<tr><th>Product</th><th>QTY</th><th>Price</th></tr>");
                 }
         });
-        var screen = new app.screenView();
-        screen.render();
 
 })(jQuery);

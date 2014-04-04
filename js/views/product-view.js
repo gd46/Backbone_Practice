@@ -19,7 +19,5 @@
                         $(this.el).html("<tr><th>Category1</th></tr><tr><td id='prod1'>Product1</td></tr>");
                 }
         });
-        var products = new app.productView();
-        products.render();
 
 })(jQuery);
