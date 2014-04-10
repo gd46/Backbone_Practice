@@ -5,7 +5,7 @@
 			var header = new app.HeaderView();
 			header.render();
 
-			var products = new app.productView();
+			var products = new app.productListView();
 			products.render();
 
 			var screen = new app.screenView();
