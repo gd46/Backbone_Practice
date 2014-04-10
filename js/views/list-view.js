@@ -11,7 +11,9 @@ app.productView = Backbone.View.extend({
 		alert("Hello");
 	},
 	render: function(){
-		$(this.el).html("<td><a href= '#'>DB Name</a></td>");
+		//var template = $("list-view-template").html();
+		//var compiled = _.template(template, {name: "Template Name" });
+		$(this.el).html("<td><a href='#'>DB Name</a></td>");
 		return this;
 	}
 });
