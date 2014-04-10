@@ -19,12 +19,16 @@
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
     <body>
-       <div id="header" class="jumbotron"></div>
-       <table id="mainScreen" class="table table-striped"></table>
-       <table id="productScreen" class="table table-striped"></table>	
-       <div id="count">
-       	    <button type="button" class="btn btn-primary" id="add">Add</button>
-       </div> 
+      <div id="header" class="jumbotron"></div>
+       	<div class="container-fluid">
+      	     <div class="row">
+	 	<table id="mainScreen" class="table table-striped"></table>
+	     </div>
+	     <div class="row">
+		<div id="list-view" class="span12">
+		</div>
+	     </div>
+	</div>
        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
@@ -45,9 +49,11 @@
 	</script>
 	<script src="js/views/header-view.js"></script>
         <script src="js/views/screen-view.js"></script>
-	<script src="js/views/product-view.js"></script>
-	<script src="js/views/count-view.js"></script>
+	<script src="js/views/list-view.js"></script>
+	<!-- Models -->
 
+	<script src="js/models/product-model.js"></script>
+	
 	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
        <!--  <script>
             (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
