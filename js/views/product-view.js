@@ -12,7 +12,10 @@
 		},
 
 		add: function(){
-			alert("test");
+			//alert("test");
+			var test = new app.screenView({model: app.productModel});
+			test.render();
+			console.log("test");
 		},
 
                 render: function(){
