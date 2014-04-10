@@ -3,6 +3,8 @@
 app.productView = Backbone.View.extend({
 	tagName: "tr",
 
+	template: _.template($('#product-list-template').html()),
+
 	events: {
 		"click a": "sayHello"
 	},
@@ -13,7 +15,8 @@ app.productView = Backbone.View.extend({
 	render: function(){
 		//var template = $("list-view-template").html();
 		//var compiled = _.template(template, {name: "Template Name" });
-		$(this.el).html("<td><a href='#'>DB Name</a></td>");
+		//$(this.el).html("<td><a href='#'>DB Name</a></td>");
+		$(this.el).html(this.template, {name: "Template Name"});
 		return this;
 	}
 });
